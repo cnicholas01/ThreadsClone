@@ -4,7 +4,7 @@ import "../../global.css";
 import {Feather} from '@expo/vector-icons';
 export default function TabLayout() {
   return (
-    <Tabs screenOptions={{tabBarActiveTintColor: 'black', tabBarShowLabel: false}}>
+    <Tabs screenOptions={{tabBarActiveTintColor: 'white', tabBarShowLabel: false}}>
       <Tabs.Screen name="index" options={{ 
         title: "Home",
         tabBarIcon: ({color, size}) => (

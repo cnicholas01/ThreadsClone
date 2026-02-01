@@ -1,3 +1,4 @@
+import 'react-native-reanimated';
 import { DarkTheme, ThemeProvider } from "@react-navigation/native";
 import { Slot } from "expo-router";
 import '../global.css';

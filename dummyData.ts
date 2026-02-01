@@ -47,7 +47,7 @@ export const dummyPosts: Post[] = [
   // Root posts (no parent)
   {
     id: "p1",
-    createdAt: "2024-01-20T10:00:00Z",
+    createdAt: "2026-01-20T10:00:00Z",
     content: "Just shipped a new feature using React hooks! The new useEffect cleanup is a game changer. 🚀",
     user_id: "u1",
     user: getUserById("u1"),
@@ -57,7 +57,7 @@ export const dummyPosts: Post[] = [
   },
   {
     id: "p2",
-    createdAt: "2024-01-20T11:30:00Z",
+    createdAt: "2026-01-27T11:30:00Z",
     content: "Working on some new UI designs. Loving the direction this project is taking! What do you think about glassmorphism?",
     user_id: "u2",
     user: getUserById("u2"),

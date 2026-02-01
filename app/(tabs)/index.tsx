@@ -1,12 +1,16 @@
-import { Text, View } from "react-native";
-import "../../global.css";
+import PostListItem from "@/components/PostListItem";
+import { dummyPosts } from "@/dummyData";
+import { FlatList, Text, View } from "react-native";
  
-export default function App() {
+export default function HomeScreen() {
   return (
     <View className="flex-1 m-2">
-      <Text className="text-3xl text-white font-bold">
-        Feed
-      </Text>
+      <FlatList
+    data={dummyPosts}
+    renderItem={({item}) => (
+      <PostListItem post={item} />
+    )}
+    />
     </View>
   );
 }

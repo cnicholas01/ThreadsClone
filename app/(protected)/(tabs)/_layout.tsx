@@ -1,11 +1,10 @@
 import { Tabs } from "expo-router";
-import { View } from "react-native";
-import "../../global.css";
+import "../../../global.css";
 import {Feather} from '@expo/vector-icons';
 export default function TabLayout() {
   return (
     <Tabs screenOptions={{tabBarActiveTintColor: 'white', tabBarShowLabel: false}}>
-      <Tabs.Screen name="index" options={{ 
+      <Tabs.Screen name="index" options={{
         title: "Home",
         tabBarIcon: ({color, size}) => (
           <Feather name="home" color={color} size={size} />
